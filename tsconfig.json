@@ -1,0 +1,10 @@
+{
+    "extends": "@tsconfig/node21/tsconfig.json",
+    "compilerOptions": {
+        "lib": ["es2018"],
+        "target": "es2018",
+        "outDir": "target",
+    },
+    "include": ["src/**/*.ts", "index.js"],
+    "exclude": ["node_modules", "**/*.test.ts"]
+}
