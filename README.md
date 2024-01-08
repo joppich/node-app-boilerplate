@@ -2,7 +2,6 @@
 
 - node 21
 - typescript
-- swc
 - eslint
 - prettier
 - jest

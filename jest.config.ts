@@ -5,7 +5,12 @@ module.exports = {
         '/tests/'
     ],
     collectCoverage: true,
-    preset: 'ts-jest',
+    preset: 'ts-jest/presets/default-esm',
     testEnvironment: 'node',
-    setupFiles: ['dotenv/config']
+    setupFiles: ['dotenv/config'],
+    globals: {
+    	tsJest: {
+	    useESM: true
+	}
+    },
 };
